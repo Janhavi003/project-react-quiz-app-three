@@ -1,0 +1,75 @@
+body {
+    background-color: #473a8d;
+  }
+
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    color: rgb(15,118,25);
+}
+
+.resultPage{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    height: 30vw;
+    color: black;
+    padding-inline: 2vw ;
+    margin-bottom: -10px;
+    box-shadow: -5px 0px 0px 0px rgb(134,134,243);
+}
+
+.phrases{
+    padding-top: 3.5vh;
+}
+
+.phrases h2{
+    font-size: 1.5rem;
+}
+
+.score{
+    font-size: 0.8rem;
+    color: rgb(0,0,255);
+    margin-top: -20px;
+}
+
+.question{
+    margin-top: 2vh;
+}
+
+.noOfQuestions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+.noOfQuestions h3{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btns{
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+    display: flex;
+    column-gap: 2.7vw;
+}
+
+.playAgainBtn{
+       background-color: white;
+    border: 2px solid #8686f3;
+    color: #8686f3;
+}
+
+.backBtn{
+    background-color: white;
+    border: 2px solid #8ebb89;
+    color: #8ebb89;
+}

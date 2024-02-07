@@ -1,0 +1,19 @@
+body{
+    background-color: #473a8d;
+}
+.home {
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#homeplay {
+    width: 13vw;
+    height: 2vw;
+    background-color: #0ab306;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+}
